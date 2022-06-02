@@ -1,0 +1,57 @@
+body{
+
+    margin: 100px; /*Posicion de texto arriba*/
+    padding: 100px; /*Posicion de texto lados*/
+    background: url(../img/Fondo.jpeg);
+    background-size: cover; /*Acerca la imagen de fondo*/
+    background-repeat: no-repeat; /*Para que la imagen no se repita al lado de la herramienta de ELEMENT*/
+    background-position: center; /*Para que la imagen se ajuste hacia el centro al lado de la herramienta de ELEMENT*/
+    text-align: center; /*Centra los textos y botones*/
+    height: 110vh;
+    font-family: 'Raleway', sans-serif; /*Tipo de letra*/
+
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    font-size: 70px; /*Tamaño de letra h1*/
+    margin-top: -150px; /*Posicion de titulos, parrafos, botones*/
+    text-shadow: 5px 5px rgb(51, 13, 221);
+
+}
+
+h2{
+    color: rgb(228, 206, 225);
+    font-size: 50px;
+    margin-top: 50px;
+
+}
+
+h3{
+    color: rgb(35, 255, 46);
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+button{
+    padding: 10px 30px; /*Tamaño boton*/
+    margin: 20px; /*Distancia entre botones*/
+    background: black;
+    border: 1px solid rgb(111, 0, 255); /*Grosor y color borde*/
+    cursor: pointer; /*Personaliza cursor*/
+    font-size: 20px; /*Ancho de botones*/
+    color: rgba(255, 0, 221, 0.479); /*Color letra botones*/
+    transition: .5s;
+
+}
+
+button:hover{
+    background: rgb(0, 225, 255); /*Color que toma el boton al poner el cursor encima*/
+    color: rgb(199, 23, 176); /*Cambia el color de las letras de los botones al poner el cursor encima*/
+    padding: 15px 20px; /*Cambia el tamaño del boton al poner el cursor encima*/
+    border: rgb(255, 0, 0); /*Cambio momentaneo en margen de boton cuando se quita el cursos*/
+}
+
+/*background: Color de fondo*/
+/*color: Color de letra*/
+/*text-shadow: Sobreado.*/
